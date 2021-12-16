@@ -97,7 +97,7 @@ class Action:
                   '📕 Getting Started Guide: https://github.com/marketplace/actions/v2ex-action\n'
                   '📣 Maintained by Yang Libin: https://github.com/yanglbme\n')
         #contents = Action.get_v2ex_hot_topics()
-        self.contents = contents[:self.count]
+        # self.contents = contents[:self.count]
         if 'weixin' in self.hook:
             self.wx()
         elif 'dingtalk' in self.hook:
