@@ -34,7 +34,7 @@ class Action:
         data = {
             'msgtype': 'markdown',
             'markdown': {
-                'content': f'### Hi，同志们\n 今天的周报交了嘛！\n{"".join(self.contents)}'
+                'content': f'### Hi，小伙伴们\n 今天的周报交了嘛！\n{"".join(self.contents)}'
             }
         }
         headers = {'Content-Type': 'application/json'}
