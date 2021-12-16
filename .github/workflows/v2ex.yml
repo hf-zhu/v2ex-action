@@ -6,9 +6,9 @@ on:
   pull_request:
     branches: [main, master]
   workflow_dispatch:
-  schedule:
-    # 可自定义 cron 表达式
-    - cron: '30 1,2 * * 4'
+  # schedule:
+    # # 可自定义 cron 表达式
+    # - cron: '30 1,2 * * 4'
 
 jobs:
   build:
