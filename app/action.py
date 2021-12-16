@@ -34,7 +34,7 @@ class Action:
         data = {
             'msgtype': 'markdown',
             'markdown': {
-                'content': f'### V2EX 当前热门\n{"".join(self.contents)}'
+                'content': f'### Hi，同志们\n 今天的周报交了嘛！\n{"".join(self.contents)}'
             }
         }
         headers = {'Content-Type': 'application/json'}
@@ -59,7 +59,7 @@ class Action:
             'msgtype': 'markdown',
             'markdown': {
                 'title': 'V2EX 当前热门',
-                'text': f'### V2EX 当前热门\n{"".join(self.contents)}'
+                'text': f'### Hi，同志们\n 今天的周报交了嘛！\n{"".join(self.contents)}'
             }
         }
         headers = {'Content-Type': 'application/json'}
