@@ -35,7 +35,7 @@ class Action:
             'msgtype': 'text',
             'text': {
                 'content': f'### Hi，小伙伴们\n 今天的周报交了嘛！\n{"".join(self.contents)}'
-                'mentioned_list': f'@all{"".join(self.contents)}'
+                'mentioned_list': @all {"".join(self.contents)}'
             }
         }
         headers = {'Content-Type': 'application/json'}
