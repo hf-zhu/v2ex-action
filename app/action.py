@@ -32,9 +32,10 @@ class Action:
 
     def wx(self):
         data = {
-            'msgtype': 'markdown',
-            'markdown': {
+            'msgtype': 'text',
+            'text': {
                 'content': f'### Hi，小伙伴们\n 今天的周报交了嘛！\n{"".join(self.contents)}'
+                'mentioned_list': f'@all{"".join(self.contents)}'
             }
         }
         headers = {'Content-Type': 'application/json'}
