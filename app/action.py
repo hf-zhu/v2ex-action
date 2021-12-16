@@ -36,7 +36,6 @@ class Action:
             'markdown': {
                 'content': f'### Hi，小伙伴们\n 今天的周报交了嘛！\n{"".join(self.contents)}'
             }
-            }
         }
         headers = {'Content-Type': 'application/json'}
         resp = requests.post(url=self.hook,
